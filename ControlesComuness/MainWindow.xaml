@@ -1,0 +1,22 @@
+﻿<Window x:Class="ControlesComuness.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ControlesComuness"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="36,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Correo: "/><LineBreak/><Run/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="36,54,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="128" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="36,77,0,0" TextWrapping="Wrap" Text="Contraseña:" VerticalAlignment="Top" Width="94"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="36,98,0,0" VerticalAlignment="Top" Width="128"/>
+        <CheckBox Content="Guardar datos&#xD;&#xA;" HorizontalAlignment="Left" Margin="36,128,0,0" VerticalAlignment="Top" Width="101" Height="15"/>
+        <RadioButton GroupName="1" Content="Opcion 1" HorizontalAlignment="Left" Margin="148,153,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="1" Content="Opcion 2" HorizontalAlignment="Left" Margin="148,173,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="1" Content="Opcion 3" HorizontalAlignment="Left" Margin="148,193,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="2" Content="Opcion aparte de las demas" HorizontalAlignment="Left" Margin="323,153,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="2" Content="Opcion aparte de las demas xd" HorizontalAlignment="Left" Margin="323,181,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
